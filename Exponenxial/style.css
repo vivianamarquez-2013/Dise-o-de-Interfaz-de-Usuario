@@ -9,8 +9,7 @@ and open the template in the editor.
 */
 
 
-body{
-    background-image: url("../Images/Map.png");   
+body{  
     background-repeat: no-repeat;
     background-position: center;
     background-color: #dde9f4;
@@ -23,16 +22,20 @@ header{
     text-align: left;
     padding: 5px;
     text-align: left;
-    background-image: url("../Images/Exp.png");  
     background-repeat: no-repeat;
     background-size: 500px;
+}
+
+header#h1#img{
+    alignment-adjust: left;
+    
 }
 
 nav{
     line-height: 30px;
     background-color: #FAF0F5;
-    height: 300px;
-    width: 200px;
+    height: 350px;
+    width: 300px;
     float: right;
     padding: 5px;
     font-family: "Avenir Next";
